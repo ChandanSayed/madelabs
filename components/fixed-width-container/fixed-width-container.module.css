@@ -1,0 +1,27 @@
+.container {
+  margin: auto;
+}
+
+@media (min-width: 780) {
+  .container {
+    width: var(--width-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: var(--width-desktop);
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: var(--width-lg-desktop);
+  }
+}
+
+/* @media (min-width: 1600px) {
+  .container {
+    width: var(--width-xl-desktop);
+  }
+} */

@@ -1,0 +1,4 @@
+.content {
+  padding: var(--default-content-padding);
+  box-sizing: border-box;
+}
