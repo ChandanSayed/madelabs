@@ -27,23 +27,25 @@ export default function SupplyChainCase() {
           />
         </div>
         <div className={styles.heroContent}>
-          <h2 className={styles.heroHeading}>
-            Revolutionizing Supply Chain Management with the KeHE Connect Platform
-          </h2>
-          <p className={styles.heroParagraph}>
-            As one of the largest organic and natural food distributors in the United States,
-            KeHE's growth was putting significant strain on legacy technology systems. The
-            compounding risk of an aging IT workforce and less market-available technology skills,
-            as well as the increasing need for robust and user friendly systems to keep scale with
-            the business demanded that KeHE make a change.
-          </p>
-          <a
-            href="https://madelabs-assets.s3.us-east-2.amazonaws.com/Supply_Chain_Case_Study.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download PDF
-          </a>
+          <div className={styles.heroContainer}>
+            <h2 className={styles.heroHeading}>
+              Revolutionizing Supply Chain Management with the KeHE Connect Platform
+            </h2>
+            <p className={styles.heroParagraph}>
+              As one of the largest organic and natural food distributors in the United States,
+              KeHE's growth was putting significant strain on legacy technology systems. The
+              compounding risk of an aging IT workforce and less market-available technology
+              skills, as well as the increasing need for robust and user friendly systems to keep
+              scale with the business demanded that KeHE make a change.
+            </p>
+            <a
+              href="https://madelabs-assets.s3.us-east-2.amazonaws.com/Supply_Chain_Case_Study.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download PDF
+            </a>
+          </div>
         </div>
       </div>
       <FixedWidthContainer>
@@ -115,7 +117,7 @@ export default function SupplyChainCase() {
           </section>
 
           <div className={styles.content}>
-            <div className={styles.outcomes}>
+            <div className={styles.outcomes2}>
               <div className={styles.metric}>
                 <h2>1.5b</h2>
                 <p>Added Revenue</p>

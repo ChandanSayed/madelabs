@@ -1,0 +1,27 @@
+:root {
+  --background-rgb: 255, 255, 255;
+  --default-content-padding: 32px;
+  --foreground-rgb: 0, 0, 0;
+  --highlight-rgb: 31, 155, 189; /* blue-teal */
+  --highlight-hover-rgb: 106, 210, 234;
+  --inverse-foreground-rgb: 255, 255, 255;
+  --inverse-background-rgb: 0, 0, 0;
+  --secondary-bg-rgb: 79, 157, 105; /* green */
+  --secondary-hover-rgb: 127, 191, 149; /* 30% lighter green */
+  --dark-green-rgb: 20, 39, 26;
+  --dark-grey-rgb: 66, 76, 85;
+  --light-grey-rgb: 239, 239, 239;
+  --width-tablet: 768px;
+  --width-desktop: 992px;
+  --width-lg-desktop: 1200px;
+  --width-xl-desktop: 1600px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    /* Overrides for dark theme goes here... */
+/* --background-rgb: 0, 0, 0; */
+/* --foreground-rgb: 255, 255, 255; */
+/* --inverse-foreground-rgb: 0, 0, 0; */
+/* } */
+/* } */
