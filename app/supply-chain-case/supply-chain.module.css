@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 1024px) {
+  .outcomes2 {
+    margin-left: auto;
+  }
   .heroSection {
     display: flex;
     flex-direction: column;
@@ -121,7 +124,7 @@
 }
 
 .heroContainer {
-  max-width: 800px;
+  max-width: 530px;
 }
 
 .content {
